@@ -15,6 +15,6 @@
     }
     
     angular
-        .module('spaChat', ['ui.router', 'firebase'])
+        .module('spaChat', ['ui.router', 'firebase', 'ui.bootstrap'])
         .config(config);
 })();
