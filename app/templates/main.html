@@ -1,3 +1,4 @@
 <section class="chat-rooms-list">
-  <div ng-repeat="room in main.rooms"> {{ room.$value }} </div>
+    <div ng-repeat="room in main.rooms"> {{ room.$value }} </div>
+    <button ng-click="main.newRoom()">Add Room</button>
 </section>
